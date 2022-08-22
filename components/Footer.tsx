@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-between lg:w-[80%] md:justify-between ">
-          <div className="flex flex-col space-y-2">
+          <div className="md:flex hidden flex-col space-y-2">
             <h1 className="font-bold text-xl mb-2">Helpful links</h1>
             <Link href="/">
               <p className="nav-elements">Home</p>
