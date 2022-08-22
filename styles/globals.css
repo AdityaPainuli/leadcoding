@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-elements {
+  @apply font-semibold text-lg hover:text-blue-500 cursor-pointer transition-all delay-75 ease-in;
+}
